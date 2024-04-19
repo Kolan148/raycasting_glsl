@@ -1,1 +1,1 @@
-# raycasting_glsl
+# Raycasting 3d in glsl
