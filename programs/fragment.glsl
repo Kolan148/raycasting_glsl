@@ -93,7 +93,7 @@ vec3 castPoint(vec3 ro, vec3 rd){
 
 void main() {
     vec3 ro = vec3(x, -y, -5+z);
-    vec3 rd = vec3(a1, -a2, 1-a1);
+    vec3 rd = vec3(a1, -a2, 1);
     vec2 st = gl_FragCoord.xy/u_resolution.xy;
     st -= vec2(.5);
     st.x *= u_resolution.x/u_resolution.y;
